@@ -7,11 +7,12 @@
     "serve": "vite preview"
   },
   "dependencies": {
-    "vue": "^3.0.5"
+    "vue": "^3.0.5",
+    "vue-router": "^4.0.5"
   },
   "devDependencies": {
-    "@iconify/json": "^1.1.320",
-    "@tailwindcss/jit": "^0.1.5",
+    "@iconify/json": "^1.1.321",
+    "@tailwindcss/jit": "^0.1.7",
     "@tailwindcss/typography": "^0.4.0",
     "@vitejs/plugin-vue": "^1.1.5",
     "@vue/compiler-sfc": "^3.0.5",

@@ -41,26 +41,18 @@
               msg="this guide"
             />.
           </p>
-          <ul>
-            <li>
-              <ExternalLink
-                link="https://tailwindcss.com/docs/guides/nextjs"
-                msg="Next.js"
-              />
-            </li>
-            <li>
-              <ExternalLink
-                link="https://tailwindcss.com/docs/guides/vue-3-vite"
-                msg="Vue 3 (vitejs)"
-              />
-            </li>
-            <li>
-              <ExternalLink
-                link="https://tailwindcss.com/docs/guides/laravel"
-                msg="Laravel"
-              />
-            </li>
-          </ul>
+            <ExternalLink
+              link="https://tailwindcss.com/docs/guides/nextjs"
+              msg="Next.js"
+            /><br />
+            <ExternalLink
+              link="https://tailwindcss.com/docs/guides/vue-3-vite"
+              msg="Vue 3 (vitejs)"
+            /><br />
+            <ExternalLink
+              link="https://tailwindcss.com/docs/guides/laravel"
+              msg="Laravel"
+            />
         </article>
       </div>
     </main>
