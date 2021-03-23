@@ -1,0 +1,25 @@
+{
+  "name": "faqwind",
+  "version": "0.0.0",
+  "scripts": {
+    "dev": "vite",
+    "build": "vite build",
+    "serve": "vite preview"
+  },
+  "dependencies": {
+    "vue": "^3.0.5"
+  },
+  "devDependencies": {
+    "@iconify/json": "^1.1.320",
+    "@tailwindcss/jit": "^0.1.5",
+    "@tailwindcss/typography": "^0.4.0",
+    "@vitejs/plugin-vue": "^1.1.5",
+    "@vue/compiler-sfc": "^3.0.5",
+    "autoprefixer": "^10.2.5",
+    "postcss": "^8.2.8",
+    "tailwindcss": "^2.0.4",
+    "vite": "^2.1.0",
+    "vite-plugin-components": "^0.8.3",
+    "vite-plugin-icons": "^0.3.2"
+  }
+}
