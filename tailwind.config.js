@@ -38,12 +38,7 @@ module.exports = {
               }
             },
             strong: { color: 'inherit' },
-            code: {
-              color: 'inherit',
-              class: { color: theme('colors.purple.800') },
-              keyword: { color: theme('colors.blue.800') },
-              symbol: { color: theme('colors.red.600') },
-            },
+            code: { color: 'inherit' },
             a: {
               color: theme('colors.tailwind'),
               textDecoration: 'none',
