@@ -63,8 +63,8 @@ export default defineConfig({
     // https://github.com/antfu/vite-plugin-pwa
     VitePWA({
       manifest: {
-        name: 'Vitesse',
-        short_name: 'Vitesse',
+        name: 'faqwind',
+        short_name: 'faqwind',
         theme_color: '#ffffff',
         icons: [
           {
