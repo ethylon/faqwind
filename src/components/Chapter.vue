@@ -1,15 +1,21 @@
 <template>
-  <h2 :id="id" class="group ml-[-1.5rem] space-x-1">
-    <a :href="'#' + id" class="transition duration-100 opacity-0 group-hover:opacity-100">#</a>
-    <span>{{ msg }}</span>
-  </h2>
+  <div class="py-3 space-y-2 font-mono text-sm">
+    <span class="inline-flex items-center px-2 font-bold lowercase">
+      <mdi:chevron-right />
+      <span>cd ./{{ title }}</span>
+    </span>
+    <div class="text-neutral-400">
+      <slot></slot>
+    </div>
+  </div>
 </template>
 
 <script setup lang="ts">
 import { defineProps } from "vue";
 
 defineProps({
-  id: String,
-  msg: String,
+  title: String,
+  subtitle: String,
 });
 </script>
+  
